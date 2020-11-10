@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBD43959255A9001005B2B5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD43958255A9001005B2B5B /* AppDelegate.swift */; };
+		DBD4395B255A9001005B2B5B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD4395A255A9001005B2B5B /* SceneDelegate.swift */; };
+		DBD4395D255A9001005B2B5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD4395C255A9001005B2B5B /* ViewController.swift */; };
+		DBD43960255A9001005B2B5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBD4395E255A9001005B2B5B /* Main.storyboard */; };
+		DBD43962255A9002005B2B5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBD43961255A9002005B2B5B /* Assets.xcassets */; };
+		DBD43965255A9002005B2B5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBD43963255A9002005B2B5B /* LaunchScreen.storyboard */; };
+		DBD43970255A9003005B2B5B /* Taiwan_Mask_MapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD4396F255A9003005B2B5B /* Taiwan_Mask_MapTests.swift */; };
+		DBD4397B255A9003005B2B5B /* Taiwan_Mask_MapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD4397A255A9003005B2B5B /* Taiwan_Mask_MapUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBD4396C255A9003005B2B5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBD4394D255A9000005B2B5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBD43954255A9001005B2B5B;
+			remoteInfo = Taiwan_Mask_Map;
+		};
+		DBD43977255A9003005B2B5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBD4394D255A9000005B2B5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBD43954255A9001005B2B5B;
+			remoteInfo = Taiwan_Mask_Map;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DBD43955255A9001005B2B5B /* Taiwan_Mask_Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taiwan_Mask_Map.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBD43958255A9001005B2B5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBD4395A255A9001005B2B5B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DBD4395C255A9001005B2B5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DBD4395F255A9001005B2B5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBD43961255A9002005B2B5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBD43964255A9002005B2B5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBD43966255A9002005B2B5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBD4396B255A9003005B2B5B /* Taiwan_Mask_MapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Taiwan_Mask_MapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBD4396F255A9003005B2B5B /* Taiwan_Mask_MapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taiwan_Mask_MapTests.swift; sourceTree = "<group>"; };
+		DBD43971255A9003005B2B5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBD43976255A9003005B2B5B /* Taiwan_Mask_MapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Taiwan_Mask_MapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBD4397A255A9003005B2B5B /* Taiwan_Mask_MapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taiwan_Mask_MapUITests.swift; sourceTree = "<group>"; };
+		DBD4397C255A9003005B2B5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBD43952255A9001005B2B5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD43968255A9003005B2B5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD43973255A9003005B2B5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBD4394C255A9000005B2B5B = {
+			isa = PBXGroup;
+			children = (
+				DBD43957255A9001005B2B5B /* Taiwan_Mask_Map */,
+				DBD4396E255A9003005B2B5B /* Taiwan_Mask_MapTests */,
+				DBD43979255A9003005B2B5B /* Taiwan_Mask_MapUITests */,
+				DBD43956255A9001005B2B5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBD43956255A9001005B2B5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBD43955255A9001005B2B5B /* Taiwan_Mask_Map.app */,
+				DBD4396B255A9003005B2B5B /* Taiwan_Mask_MapTests.xctest */,
+				DBD43976255A9003005B2B5B /* Taiwan_Mask_MapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBD43957255A9001005B2B5B /* Taiwan_Mask_Map */ = {
+			isa = PBXGroup;
+			children = (
+				DBD43958255A9001005B2B5B /* AppDelegate.swift */,
+				DBD4395A255A9001005B2B5B /* SceneDelegate.swift */,
+				DBD4395C255A9001005B2B5B /* ViewController.swift */,
+				DBD4395E255A9001005B2B5B /* Main.storyboard */,
+				DBD43961255A9002005B2B5B /* Assets.xcassets */,
+				DBD43963255A9002005B2B5B /* LaunchScreen.storyboard */,
+				DBD43966255A9002005B2B5B /* Info.plist */,
+			);
+			path = Taiwan_Mask_Map;
+			sourceTree = "<group>";
+		};
+		DBD4396E255A9003005B2B5B /* Taiwan_Mask_MapTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBD4396F255A9003005B2B5B /* Taiwan_Mask_MapTests.swift */,
+				DBD43971255A9003005B2B5B /* Info.plist */,
+			);
+			path = Taiwan_Mask_MapTests;
+			sourceTree = "<group>";
+		};
+		DBD43979255A9003005B2B5B /* Taiwan_Mask_MapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DBD4397A255A9003005B2B5B /* Taiwan_Mask_MapUITests.swift */,
+				DBD4397C255A9003005B2B5B /* Info.plist */,
+			);
+			path = Taiwan_Mask_MapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBD43954255A9001005B2B5B /* Taiwan_Mask_Map */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBD4397F255A9003005B2B5B /* Build configuration list for PBXNativeTarget "Taiwan_Mask_Map" */;
+			buildPhases = (
+				DBD43951255A9001005B2B5B /* Sources */,
+				DBD43952255A9001005B2B5B /* Frameworks */,
+				DBD43953255A9001005B2B5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Taiwan_Mask_Map;
+			productName = Taiwan_Mask_Map;
+			productReference = DBD43955255A9001005B2B5B /* Taiwan_Mask_Map.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBD4396A255A9003005B2B5B /* Taiwan_Mask_MapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBD43982255A9003005B2B5B /* Build configuration list for PBXNativeTarget "Taiwan_Mask_MapTests" */;
+			buildPhases = (
+				DBD43967255A9003005B2B5B /* Sources */,
+				DBD43968255A9003005B2B5B /* Frameworks */,
+				DBD43969255A9003005B2B5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBD4396D255A9003005B2B5B /* PBXTargetDependency */,
+			);
+			name = Taiwan_Mask_MapTests;
+			productName = Taiwan_Mask_MapTests;
+			productReference = DBD4396B255A9003005B2B5B /* Taiwan_Mask_MapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DBD43975255A9003005B2B5B /* Taiwan_Mask_MapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBD43985255A9003005B2B5B /* Build configuration list for PBXNativeTarget "Taiwan_Mask_MapUITests" */;
+			buildPhases = (
+				DBD43972255A9003005B2B5B /* Sources */,
+				DBD43973255A9003005B2B5B /* Frameworks */,
+				DBD43974255A9003005B2B5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBD43978255A9003005B2B5B /* PBXTargetDependency */,
+			);
+			name = Taiwan_Mask_MapUITests;
+			productName = Taiwan_Mask_MapUITests;
+			productReference = DBD43976255A9003005B2B5B /* Taiwan_Mask_MapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBD4394D255A9000005B2B5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					DBD43954255A9001005B2B5B = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					DBD4396A255A9003005B2B5B = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = DBD43954255A9001005B2B5B;
+					};
+					DBD43975255A9003005B2B5B = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = DBD43954255A9001005B2B5B;
+					};
+				};
+			};
+			buildConfigurationList = DBD43950255A9001005B2B5B /* Build configuration list for PBXProject "Taiwan_Mask_Map" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBD4394C255A9000005B2B5B;
+			productRefGroup = DBD43956255A9001005B2B5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBD43954255A9001005B2B5B /* Taiwan_Mask_Map */,
+				DBD4396A255A9003005B2B5B /* Taiwan_Mask_MapTests */,
+				DBD43975255A9003005B2B5B /* Taiwan_Mask_MapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBD43953255A9001005B2B5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD43965255A9002005B2B5B /* LaunchScreen.storyboard in Resources */,
+				DBD43962255A9002005B2B5B /* Assets.xcassets in Resources */,
+				DBD43960255A9001005B2B5B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD43969255A9003005B2B5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD43974255A9003005B2B5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBD43951255A9001005B2B5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD4395D255A9001005B2B5B /* ViewController.swift in Sources */,
+				DBD43959255A9001005B2B5B /* AppDelegate.swift in Sources */,
+				DBD4395B255A9001005B2B5B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD43967255A9003005B2B5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD43970255A9003005B2B5B /* Taiwan_Mask_MapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD43972255A9003005B2B5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD4397B255A9003005B2B5B /* Taiwan_Mask_MapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBD4396D255A9003005B2B5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBD43954255A9001005B2B5B /* Taiwan_Mask_Map */;
+			targetProxy = DBD4396C255A9003005B2B5B /* PBXContainerItemProxy */;
+		};
+		DBD43978255A9003005B2B5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBD43954255A9001005B2B5B /* Taiwan_Mask_Map */;
+			targetProxy = DBD43977255A9003005B2B5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBD4395E255A9001005B2B5B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBD4395F255A9001005B2B5B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBD43963255A9002005B2B5B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBD43964255A9002005B2B5B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBD4397D255A9003005B2B5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBD4397E255A9003005B2B5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBD43980255A9003005B2B5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4M9JN3FY6A;
+				INFOPLIST_FILE = Taiwan_Mask_Map/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cooper.Taiwan-Mask-Map";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBD43981255A9003005B2B5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4M9JN3FY6A;
+				INFOPLIST_FILE = Taiwan_Mask_Map/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cooper.Taiwan-Mask-Map";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DBD43983255A9003005B2B5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4M9JN3FY6A;
+				INFOPLIST_FILE = Taiwan_Mask_MapTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cooper.Taiwan-Mask-MapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Taiwan_Mask_Map.app/Taiwan_Mask_Map";
+			};
+			name = Debug;
+		};
+		DBD43984255A9003005B2B5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4M9JN3FY6A;
+				INFOPLIST_FILE = Taiwan_Mask_MapTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cooper.Taiwan-Mask-MapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Taiwan_Mask_Map.app/Taiwan_Mask_Map";
+			};
+			name = Release;
+		};
+		DBD43986255A9003005B2B5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4M9JN3FY6A;
+				INFOPLIST_FILE = Taiwan_Mask_MapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cooper.Taiwan-Mask-MapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Taiwan_Mask_Map;
+			};
+			name = Debug;
+		};
+		DBD43987255A9003005B2B5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4M9JN3FY6A;
+				INFOPLIST_FILE = Taiwan_Mask_MapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cooper.Taiwan-Mask-MapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Taiwan_Mask_Map;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBD43950255A9001005B2B5B /* Build configuration list for PBXProject "Taiwan_Mask_Map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBD4397D255A9003005B2B5B /* Debug */,
+				DBD4397E255A9003005B2B5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBD4397F255A9003005B2B5B /* Build configuration list for PBXNativeTarget "Taiwan_Mask_Map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBD43980255A9003005B2B5B /* Debug */,
+				DBD43981255A9003005B2B5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBD43982255A9003005B2B5B /* Build configuration list for PBXNativeTarget "Taiwan_Mask_MapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBD43983255A9003005B2B5B /* Debug */,
+				DBD43984255A9003005B2B5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBD43985255A9003005B2B5B /* Build configuration list for PBXNativeTarget "Taiwan_Mask_MapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBD43986255A9003005B2B5B /* Debug */,
+				DBD43987255A9003005B2B5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBD4394D255A9000005B2B5B /* Project object */;
+}
