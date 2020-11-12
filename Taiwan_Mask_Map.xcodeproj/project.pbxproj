@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB6C63D2255ABBA6006A9408 /* MaskInventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6C63D1255ABBA6006A9408 /* MaskInventory.swift */; };
+		DB6C63D7255ABDFC006A9408 /* AllMaskAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6C63D6255ABDFC006A9408 /* AllMaskAnnotation.swift */; };
+		DB6C63EB255BDF11006A9408 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6C63EA255BDF11006A9408 /* DetailViewController.swift */; };
 		DBD43959255A9001005B2B5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD43958255A9001005B2B5B /* AppDelegate.swift */; };
 		DBD4395B255A9001005B2B5B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD4395A255A9001005B2B5B /* SceneDelegate.swift */; };
-		DBD4395D255A9001005B2B5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD4395C255A9001005B2B5B /* ViewController.swift */; };
+		DBD4395D255A9001005B2B5B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD4395C255A9001005B2B5B /* MapViewController.swift */; };
 		DBD43960255A9001005B2B5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBD4395E255A9001005B2B5B /* Main.storyboard */; };
 		DBD43962255A9002005B2B5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBD43961255A9002005B2B5B /* Assets.xcassets */; };
 		DBD43965255A9002005B2B5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBD43963255A9002005B2B5B /* LaunchScreen.storyboard */; };
@@ -35,10 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DB6C63D1255ABBA6006A9408 /* MaskInventory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskInventory.swift; sourceTree = "<group>"; };
+		DB6C63D6255ABDFC006A9408 /* AllMaskAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllMaskAnnotation.swift; sourceTree = "<group>"; };
+		DB6C63EA255BDF11006A9408 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		DBD43955255A9001005B2B5B /* Taiwan_Mask_Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taiwan_Mask_Map.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBD43958255A9001005B2B5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBD4395A255A9001005B2B5B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DBD4395C255A9001005B2B5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DBD4395C255A9001005B2B5B /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		DBD4395F255A9001005B2B5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DBD43961255A9002005B2B5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBD43964255A9002005B2B5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -99,12 +105,13 @@
 		DBD43957255A9001005B2B5B /* Taiwan_Mask_Map */ = {
 			isa = PBXGroup;
 			children = (
+				DBD4398B255A900F005B2B5B /* Model */,
+				DBD4398C255A901F005B2B5B /* Annotations */,
+				DBD4398E255A9089005B2B5B /* Views */,
+				DBD4398D255A905F005B2B5B /* View Controller */,
 				DBD43958255A9001005B2B5B /* AppDelegate.swift */,
 				DBD4395A255A9001005B2B5B /* SceneDelegate.swift */,
-				DBD4395C255A9001005B2B5B /* ViewController.swift */,
-				DBD4395E255A9001005B2B5B /* Main.storyboard */,
 				DBD43961255A9002005B2B5B /* Assets.xcassets */,
-				DBD43963255A9002005B2B5B /* LaunchScreen.storyboard */,
 				DBD43966255A9002005B2B5B /* Info.plist */,
 			);
 			path = Taiwan_Mask_Map;
@@ -126,6 +133,40 @@
 				DBD4397C255A9003005B2B5B /* Info.plist */,
 			);
 			path = Taiwan_Mask_MapUITests;
+			sourceTree = "<group>";
+		};
+		DBD4398B255A900F005B2B5B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DB6C63D1255ABBA6006A9408 /* MaskInventory.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DBD4398C255A901F005B2B5B /* Annotations */ = {
+			isa = PBXGroup;
+			children = (
+				DB6C63D6255ABDFC006A9408 /* AllMaskAnnotation.swift */,
+			);
+			path = Annotations;
+			sourceTree = "<group>";
+		};
+		DBD4398D255A905F005B2B5B /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DBD4395C255A9001005B2B5B /* MapViewController.swift */,
+				DB6C63EA255BDF11006A9408 /* DetailViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		DBD4398E255A9089005B2B5B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DBD43963255A9002005B2B5B /* LaunchScreen.storyboard */,
+				DBD4395E255A9001005B2B5B /* Main.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +299,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBD4395D255A9001005B2B5B /* ViewController.swift in Sources */,
+				DB6C63D2255ABBA6006A9408 /* MaskInventory.swift in Sources */,
+				DBD4395D255A9001005B2B5B /* MapViewController.swift in Sources */,
 				DBD43959255A9001005B2B5B /* AppDelegate.swift in Sources */,
+				DB6C63EB255BDF11006A9408 /* DetailViewController.swift in Sources */,
 				DBD4395B255A9001005B2B5B /* SceneDelegate.swift in Sources */,
+				DB6C63D7255ABDFC006A9408 /* AllMaskAnnotation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
